@@ -1,6 +1,6 @@
 ## uw-header component
 
-![http://goo.gl/zwfi8a](http://goo.gl/zwfi8a)
+![./demo.png](./demo.png)
 
 This component has the following inputs
 + name : the name that you want displayed in the upper left side.
