@@ -1,4 +1,4 @@
-## <uw-frame> component
+## uw-header component
 
 ![http://goo.gl/zwfi8a](http://goo.gl/zwfi8a)
 
