@@ -8,7 +8,7 @@ import { MdIconRegistry } from '@angular2-material/icon';
   styleUrls: ['./app.component.css'],
   providers: [MdIconRegistry]
 })
-export class AppComponent {
+export class FrameDemoComponent {
   appTitle = "Demo Application of UW Components";
   userName = "Bucky";
   url = "/";

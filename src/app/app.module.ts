@@ -9,12 +9,12 @@ import { MdGridListModule } from '@angular2-material/grid-list/grid-list';
 import { MdIconModule } from '@angular2-material/icon';
 import {MdMenuModule} from '@angular2-material/menu';
 
-import { AppComponent } from './app.component';
+import { FrameDemoComponent } from './app.component';
 import { UwHeaderComponent } from './uw-header/uw-header.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    FrameDemoComponent,
     UwHeaderComponent
   ],
   imports: [
@@ -29,6 +29,6 @@ import { UwHeaderComponent } from './uw-header/uw-header.component';
     MdMenuModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [FrameDemoComponent]
 })
-export class AppModule { }
+export class UWFrameModule { }
