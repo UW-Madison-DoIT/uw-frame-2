@@ -1,0 +1,15 @@
+<md-toolbar>
+  <a href="{{url}}">{{name}}</a>
+  <span class="app-toolbar-filler"></span>
+  <button md-icon-button [md-menu-trigger-for]="menu">
+    <md-icon>account_box</md-icon>
+  </button>
+
+  <span style="font-size: .85em;">{{displayName}}</span>
+  <md-menu #menu="mdMenu">
+    <button md-menu-item> Refresh </button>
+    <button md-menu-item> Settings </button>
+    <button md-menu-item> Help </button>
+    <button md-menu-item disabled> Sign Out </button>
+  </md-menu>
+</md-toolbar>

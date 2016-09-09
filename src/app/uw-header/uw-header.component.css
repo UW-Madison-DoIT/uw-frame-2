@@ -1,0 +1,16 @@
+.app-toolbar-filler {
+  flex: 1 1 auto;
+}
+
+md-toolbar {
+  color : white;
+}
+
+md-toolbar a {
+  color : white;
+  text-decoration : none;
+}
+
+md-toolbar {
+  background-color: #b70101;
+}
